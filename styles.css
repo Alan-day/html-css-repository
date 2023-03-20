@@ -38,7 +38,7 @@ ul {
 }
 
 footer {
-
+    font-size: 10px;
     background-color: bisque;
 }
 
@@ -46,3 +46,9 @@ div{
     display: flex;
     justify-content: center;
 }
+
+p::first-line {
+    color: #ff0000;
+    font-variant: small-caps;
+    font-weight: bold;
+  }
